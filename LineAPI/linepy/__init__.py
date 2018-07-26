@@ -8,6 +8,6 @@ __version__         = '3.0.8'
 __license__         = 'BSD-3-Clause'
 __author__          = 'Fadhiil Rachman'
 __author_email__    = 'fadhiilrachman@gmail.com'
-__url__             = 'http://github.com/fadhiilrachman/line-py'
+__url__             = 'https://github.com/andriann26/helloworld'
 
 __all__ = ['LINE', 'Channel', 'OEPoll', 'OpType']
