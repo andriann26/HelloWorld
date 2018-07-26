@@ -203,7 +203,7 @@ def menuHelp():
 				"╠ " + key + "SearchMusic 「Search」" + "\n" + \
 				"╠ " + key + "SearchLyric 「Search」" + "\n" + \
 				"╠ " + key + "SearchYoutube 「Search」" + "\n" + \
-				"╚══[ Copyright Andrian ]"
+				"╚══[ Follow My Instagram @and26_ ]"
 	return menuHelp
 
 def menuTextToSpeech():
