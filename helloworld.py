@@ -203,7 +203,7 @@ def menuHelp():
 				"╠ " + key + "SearchMusic 「Search」" + "\n" + \
 				"╠ " + key + "SearchLyric 「Search」" + "\n" + \
 				"╠ " + key + "SearchYoutube 「Search」" + "\n" + \
-				"╚══[ Copyright andriann26 ]"
+				"╚══[ Copyright Andrian ]"
 	return menuHelp
 
 def menuTextToSpeech():
