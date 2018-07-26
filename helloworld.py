@@ -203,7 +203,7 @@ def menuHelp():
 				"╠ " + key + "SearchMusic 「Search」" + "\n" + \
 				"╠ " + key + "SearchLyric 「Search」" + "\n" + \
 				"╠ " + key + "SearchYoutube 「Search」" + "\n" + \
-				"╚══[ Copyright @Zero-Cool404 ]"
+				"╚══[ Copyright andriann26 ]"
 	return menuHelp
 
 def menuTextToSpeech():
@@ -427,11 +427,11 @@ def clientBot(op):
 						to = receiver
 					if msg.contentType == 0:
 						if cmd == "logout":
-							client.sendMessage(to, "Berhasil mematikan selfbot")
+							client.sendMessage(to, "Aku logout ya semuanya:(")
 							sys.exit("[ INFO ] BOT SHUTDOWN")
 							return
 						elif cmd == "restart":
-							client.sendMessage(to, "Berhasil mereset bot")
+							client.sendMessage(to, "Botnya abis direset")
 							restartBot()
 						elif cmd == "speed":
 							start = time.time()
@@ -442,7 +442,7 @@ def clientBot(op):
 							timeNow = time.time()
 							runtime = timeNow - clientStart
 							runtime = timeChange(runtime)
-							client.sendMessage(to, "Selfbot telah aktif selama {}".format(str(runtime)))
+							client.sendMessage(to, "Selfbot udah aktif selama {}".format(str(runtime)))
 						elif cmd.startswith("setkey: "):
 							sep = text.split(" ")
 							key = text.replace(sep[0] + " ","")
